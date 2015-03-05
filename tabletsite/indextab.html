@@ -13,7 +13,16 @@
 </head>
 <body>
    
-      
+      <script type="text/javascript">
+  var lockOrientation = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation;
+
+if (lockOrientation("landscape-primary")) {
+  // orientation was locked
+} else {
+  // orientation lock failed
+}
+
+</script>
     
 <main class="cd-main-content">
  <nav class="navbar navbar-default" role="navigation">
