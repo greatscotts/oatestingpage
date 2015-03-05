@@ -14,13 +14,14 @@
 <body>
    
       <script type="text/javascript">
-  var lockOrientation = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation;
-
-if (lockOrientation("landscape-primary")) {
-  // orientation was locked
-} else {
-  // orientation lock failed
-}
+  $(document).ready(function () {
+  function reorient(e) {
+    var portrait = (window.orientation % 180 == 0);
+    $("body > div").css("-webkit-transform", !portrait ? "rotate(-90deg)" : "");
+  }
+  window.onorientationchange = reorient;
+  window.setTimeout(reorient, 0);
+});
 
 </script>
     
@@ -65,7 +66,7 @@ if (lockOrientation("landscape-primary")) {
        <div style="margin-left:75px;margin-right:70px;">  
    <center> <p style="font-size:30px; " >
 
-      Make your School Enrollment,Grading and payment available on the <b>Cloud</b> and <b>Mobile</b></h2></center>
+      Makes your School Enrollment,Grading and payment available on the <b>Cloud</b> and <b>Mobile</b></h2></center>
      <Br>
   
   <Center><a type="button" class="btn btn-warning btn-lg" href="confirm2.html"><b>Sign Up for Free</b></button></a></center>
