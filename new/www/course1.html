@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html>
+    <!--
+  * Please see the included README.md file for license terms and conditions.
+  -->
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" class="uib-framework-theme">
+        <title>Blank App Designer Project Template</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+        <!--
+  * The "meta viewport" tag (below) helps your app size appropriately to a device's screen.
+  * Note that the meta viewport approach is being phased out in favor of the @viewport CSS rule.
+  * For a quick overview of both, see this article:
+  *   http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag
+  * To see what happens, try the app on a real device with and without a "meta viewport" tag.
+-->
+
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1, maximum-scale=2"> -->
+
+        <style>
+            /* following three (cascaded) are equivalent to above three meta viewport statements */
+            /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html */
+            /* see http://dev.w3.org/csswg/css-device-adapt/ */
+                @-ms-viewport { width: 100vw ; zoom: 100% ; }                           @viewport { width: 100vw ; zoom: 100% ; }
+                @-ms-viewport { user-zoom: fixed ; }                                    @viewport { user-zoom: fixed ; }
+                /*@-ms-viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }   @viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }*/
+        </style>
+
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+
+        <!-- IMPORTANT: Do not include your weinre script tag as part of your release builds! -->
+        <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work below -->
+        <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
+
+        <!-- Most third-party libraries should go here. References (below) are just examples to give you the general idea... -->
+        <!-- <script src="lib/mc/hammer.js"></script> -->
+        <!-- <script src="lib/ft/fastclick.js"></script> -->
+        <script type="text/javascript">
+            $.ui.ready(function(){
+           $.ui.blockPageScroll();
+        })
+        </script>
+        <script src="intelxdk.js"></script>
+        <!-- phantom library, needed for Intel XDK "legacy" container api calls -->
+        <script src="cordova.js"></script>
+        <!-- phantom library, needed for Cordova api calls -->
+        <script src="xhr.js"></script>
+        <!-- phantom library, needed for Intel XDK "legacy" container CORS -->
+
+        <script src="js/app.js"></script>
+        <!-- for your event code, see README and file comments for details -->
+        <script src="js/init-app.js"></script>
+        <!-- for your init code, see README and file comments for details -->
+        <script src="xdk/init-dev.js"></script>
+
+        <!-- normalizes device and document ready events, see file for details -->
+
+    </head>
+
+    <body>
+        <!-- IMPORTANT: Do not include your weinre script tag as part of your release builds! -->
+        <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work above -->
+        <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
+        <div class="upage" id="mainpage">
+            <div class="upage-outer">
+                <div class="upage-content content-area vertical-col left" id="page_62_99">
+                    <div class="widget uib_w_1 scale-image d-margins" data-uib="media/img" data-ver="0">
+
+                        <img src="img/course1.jpg" style="margin-left:-20px;">
+
+                    </div>
+                    
+                     <div class="widget uib_w_2 d-margins" data-uib="media/text" data-ver="0">
+                        <div class="widget-container left-receptacle"></div>
+                         <a href="course.html"> <img src="img/back.png" style="width:55px; margin-top:-750px;"></a>
+
+                        <div class="widget-container right-receptacle"></div>
+                        
+                          <!-- 1TH -->
+                        <div style="margin-left:10px; margin-right:10px;">
+                           
+                                 
+                              <strong>  <center>   <p style="font-size:24px; color:#3498db;">Bachelor of Science in Hospitality Management</p></strong>  
+                               </center>
+                              <br>    
+                            <p>The Global Innovative Hospitality Management Program prepares students to become service-oriented, globally competent professionals equipped with culinary skills, hospitality competencies and unparalleled professionalism. Tagged as the world’s biggest industry, Hospitality offers a world of exciting possibilities locally and globally where you can exercise your creativity and, at the same time, enjoy the rewards of a fulfilling career. The emergence of International hotel chains, lodging facilities, food and beverage service establishments and the booming tourism industry require a new breed of customer-oriented leaders who have the spunk to keep up with the ever dynamic and popular hospitality industry.</p> 
+                              <hr>
+                             <strong>  <center>   <p style="font-size:24px; color:#3498db;">Program features</p></strong>  
+                               </center>
+                             <br>    
+                            <p>
+- The seven (7) foundational to advanced professional culinary subjects namely: Fundamentals of Culinary Arts, Food Safety and Sanitation, Meat and Seafood Fabrication and Cookery, Cold Kitchen Procedures, Filipino, Asian and Western Cuisines, Bakery science and Pastry Arts and Molecular Gastronomy with Food Styling.
+ <br>
+- Hospitality competencies such as: Food and Beverage Service Procedures, Catering Management, Front Office Management, Housekeeping Procedures, Bar Management, Cruise Management, Facilities Planning, Layout and Design and Leisure, Sports and Recreational Management.
+ <br>
+- Extensive On-the-Job trainings in Bar and Restaurant, Cruise line, Resort and Deluxe Hotel.
+ <br>
+- Local and International Tours with Hospitality Immersion Programs.
+ <br>
+- The sprawling Bonifacio Global City (BGC) as a practical extension of HM laboratories.
+ <br>
+-  A team of faculty who are industry players themselves, including hospitality industry practitioners, entrepreneurs, Chefs and Restaurateurs.
+<br> 
+At GLOBAL Hospitality Management, we train you to be hired and to hire!</p> 
+                            
+                          
+                            
+                        </div>
+                        
+                         
+                            
+                        </div>
+                        
+                        
+                       
+                        
+                    </div>
+                    
+                   
+                    
+                    
+                    
+                    <div class="widget uib_w_5 d-margins" data-uib="media/text" data-ver="0">
+                        <div class="widget-container left-receptacle"></div>
+                        <div class="widget-container right-receptacle"></div>
+                        <div>
+                            <strong>  <p style="font-size:44px; color:white;margin-top:-1560px; margin-left:5px;"></p><p style="color:white; margin-top:-15px; margin-left:10px;"></p></strong>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+
+</html>

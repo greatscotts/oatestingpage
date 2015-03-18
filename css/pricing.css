@@ -2,24 +2,6 @@
 Inspired by the dribble shot http://dribbble.com/shots/1285240-Freebie-Flat-Pricing-Table?list=tags&tag=pricing_table
 */
 
-/*--------- Font ------------*/
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
-/* fontawesome */
-[class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif;
-}
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: ;
-    font: inherit;
-    vertical-align: baseline;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 /*------ utiltity classes -----*/
 .fl{ float:left; }
 .fr{ float: right; }
@@ -38,9 +20,9 @@ Inspired by the dribble shot http://dribbble.com/shots/1285240-Freebie-Flat-Pric
 
 body {
     background: #F2F2F2;
-    font-family: 'Droid Sans', sans-serif;
+    
     line-height: 1;
-    font-size: 16px;    
+    font-size: 13px;    
 }
 .wrapper {
     

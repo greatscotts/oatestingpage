@@ -20,7 +20,8 @@ Modules - reusable parts of our design
 Main components 
 
 -------------------------------- */
-.cd-main-content {
+
+/*.cd-main-content {
   /* set a min-height and a z-index to be sure that the main element completely covers the lateral menu */
   min-height: 100%;
   position: relative;
@@ -74,7 +75,7 @@ header {
 #cd-top-nav {
   position: absolute;
   top: 0;
-  margin-top:8px;
+  margin-top:13px;
   right: 12px;
   height: 100%;
   display: none;
@@ -93,7 +94,7 @@ header {
   font-size: 1.5em;
 }
 #cd-top-nav a:hover {
-    color: #f19b24;
+    color: transparent;
 }
 #cd-top-nav a.current {
     color: #f19b24;
@@ -107,6 +108,7 @@ header {
 @media only screen and (min-width: 768px) {
   #cd-top-nav {
     display: block;
+    height: 40px;
   }
 }
 
